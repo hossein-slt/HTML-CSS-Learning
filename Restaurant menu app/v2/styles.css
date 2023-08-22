@@ -1,0 +1,86 @@
+body {
+    background-image: url(images/background.jfif);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1, h2{
+    font-family: impact, sans-serif;
+}
+
+hr {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    height: 3px;
+}
+
+.menu {
+    width: 80%;
+    background-color: #34eb8f;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item  p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.food, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-lined {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: dodgerblue;
+}
+
+a:visited{
+    color: rgb(80, 100, 255);
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: black;
+}
+
+.address{
+    margin-top: 5px;
+}

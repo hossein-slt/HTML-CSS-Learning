@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <main>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DogAppPhoto</title>
+    </head>
+    <body>
+        <h1>DogPhotoApp</h1>
+        <section>
+            <h2>Dog Photos</h2>
+            <p>See more <a href="https://freecodecamp.org">dog photos</a> in our gallery</p>
+            <a href="https://freecodecamp.org" target="_blank"><img src="images/dog1.jpg" alt="A small cute dog"></a>
+        </section>
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love:</h3>
+            <ul>
+                <li>playing</li>
+                <li>food</li>
+                <li>other dogs</li>
+            </ul>
+        </section>
+        <figure>
+            <img src="images/dog2.jpg" alt="Some cute dogs">
+            <figcaption>Dogs <em>love</em> other dogs</figcaption>
+        </figure>
+        <section>
+            <h3>Things dogs hate:</h3>
+            <ol>
+                <li>hugging</li>
+                <li>rough handling</li>
+                <li>inactivity</li>
+            </ol>
+        </section>
+        <figure>
+            <img src="images/dog4.jpg" alt="A dog is running">
+            <figcaption>Dogs <strong>hate</strong> inactivity</figcaption>
+        </figure>
+        <section>
+            <h1>Dog Form</h1>
+            <form>
+                <fieldset>
+                    <legend>Is your dog an indoor or outdoor dog?</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">outdoor</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your dog personality?</legend>
+                    <input id="loving" type="checkbox" name="personality" value="loving" checked><label for="loving">Loving</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                    <input id="energetic" type="checkbox" name="personality" value="energetic"><label for="energetic">Energetic</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your dog kind of food?</legend>
+                    <label><input id="kibble" type="radio" name="food" value="kibble" checked>Kibble - a dry diet</label>
+                    <label><input id="canned"  type="radio" name="food" value="canned">Canned - a wet diet.</label>
+                    <label><input id="raw"  type="radio" name="food" value="raw">Raw diet</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your dog race?</legend>
+                    <label><input id="german" type="radio" name="race" value="german" checked>German Shepherd</label>
+                    <label><input id="border" type="radio" name="race" value="border">Border Collie</label>
+                    <label><input id="grey" type="radio" name="race" value="grey">Greyhounds</label>
+                    <label><input id="great" type="radio" name="race" value="great">Great Danes</label>
+                    <label><input id="bull" type="radio" name="race" value="bull">BullDog</label>
+                    <label><input id="afghan" type="radio" name="race" value="afghan">Afghan Hound</label>
+                    <label><input id="other" type="radio" name="race" value="other">Others</label>
+                </fieldset>
+                <fieldset>
+                    <input type="text" placeholder="dog photo URL" name="dogphoto"  required>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>No Copyright - <a href="https://freecodecamp.org" target="_blank">freecodecamp.org</a></p>
+    </footer>
+</body>
+</html>
