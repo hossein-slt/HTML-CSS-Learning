@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azad Food Court</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="title">Azad Food Court</h1>
+            <p id="description" class="description">Reservation Form</p>
+        </header>
+        <hr class="divider">
+        <form>
+            <div class="form-group">
+                <label for="name-label">Name: </label>
+                <input id="name-label" type="text" name="personal-info" class="form-control" placeholder="Enter yor Name" required/>
+            </div>
+            <div class="form-group">
+                <label for="number-label">Phone: </label>
+                <input id="number-label" type="number" name="mobile-phone" class="form-control" placeholder="Enter your Number" minlength="11" required/>
+            </div>
+            <div class="form-group">
+                <label for="email-label">Email: </label>
+                <input id="email-label" type="email" name="personal-info" class="form-control" placeholder="Enter your Email" required/>
+            </div>
+            <div class="form-group">
+                <lable>Event:</lable>
+                <select id="event">
+                    <option disabled selected value>Select</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="renunion">Reunion</option>
+                    <option value="family">Family gathering</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>What kind of table do you prefer? </p>
+                <label><input type="radio" name="table" value="single" class="input-radio" required/>Single</label>
+                <label><input type="radio" name="table" value="couple" class="input-radio" required/>Couple</label>
+                <label><input type="radio" name="table" value="family" class="input-radio" required/>Family</label>
+            </div>
+            <div class="form-group">
+                <p>Any Extra services: <span class="clue">(chairs, table...)</span></p>
+                <textarea id="comment" rows="3" cols="30" maxlength="100" class="input-textarea" name="comment" placeholder="Write here..."></textarea>
+            </div>
+            <div class="form-group"> 
+                <label><input type="checkbox" name="terms-and-conditions" value="terms" class="input-checkbox"/>Accept terms and conditions</label>
+            </div>
+            <div>
+                <button type="submit" id="sumbit" class="submit-button">Submit</button>
+            </div>
+            <div>
+                <button type="reset" id="reset" class="reset-button">Reset</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
