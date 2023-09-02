@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(images/ferrari.jpg);
+}
+
+.label {
+    border: 2px solid gray;
+    width: 400px;
+    margin: 20px auto;
+    padding: 0 7px;
+    background-color: rgba(27, 27, 50, 0.8);
+    color: antiquewhite;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.year {
+    margin: 5px 50px 5px 160px;
+    font-style: italic;
+    text-align: center;
+}
+
+.production-year {
+    text-align: center;
+}
+
+.divider-large {
+    border-bottom: 3px solid burlywood;
+}
+
+.divider {
+    border: 1px solid dodgerblue;
+}
+
+.bold {
+    font-weight: 750;
+}
+
+.heading {
+    padding: 10px;
+}
+
+.details {
+    margin: 10px;
+}
+img {
+    margin: 0 50px 0 110px;
+    align-items: center;
+    width: 150px;
+}
+
+.appear {
+    font-style: italic;
+}
