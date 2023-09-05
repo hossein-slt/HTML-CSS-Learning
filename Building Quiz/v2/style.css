@@ -126,3 +126,7 @@ address {
     text-align: center;
     padding: 0.4rem;
 }
+
+fieldset {
+    margin-bottom: 10px;
+}
