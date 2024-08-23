@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Coffee App</h1>
+        <section>
+            <h2>Coffee Photos</h2>
+            <p>See more <a href="https://www.google.com" target="_blank">coffee photos</a> in our gallery</p>
+            <a><img class="greenbean" src="Greencoffeebeans.jpg" alt="green beans coffee"></a>
+        </section>
+        <section>
+            <h2>Benefits Of Coffee</h2>
+            <ul>
+                <li>Lower your risk of type 2 diabetes and depression</li>
+                <li>Support weight management</li>
+                <li>Boosts energy levels</li>
+            </ul>
+        </section>
+        <figure>
+            <img  src="images.jpg" alt="coffee beans">
+            <figcaption>All you need is a <em>good coffee</em></figcaption>
+        </figure>
+        <section>
+            <h2>Coffee Disadvantages</h2>
+            <ol>
+                <li>Insomnia</li>
+                <li>Nervousness and Restlessness</li>
+                <li>Increased heart and breathing rate</li>
+            </ol>
+        </section>
+        <figure>
+            <img src="mug.jpg" alt="cup of coffee">
+            <figcaption>Coffee is a <strong>hug</strong> in a mug</figcaption>
+        </figure>
+        <section>
+            <h2>Coffee Form</h2>
+            <form action="https://www.google.com">
+                <fieldset>
+                    <legend>What is your favorite coffee?</legend>
+                    <label><input id="commercial" type="radio" name="coffee" value="commercial">Commercial</label>
+                    <label><input id="single-origin" type="radio" name="coffee" value="single-origin">Single origin</label>
+                    <label><input id="Speciality" type="radio" name="coffee" value="Speciality">Speciality</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What kind of coffee do you like?</legend>
+                    <label><input id="coffee-kind" type="checkbox" name="kind" value="kind-of-coffee" checked>Filter Coffee</label>
+                    <label><input id="coffee-kinds" type="checkbox" name="kinds" value="kinds-of">Espresso</label>
+                    <label><input id="coffee-kindss" type="checkbox" name="kindss" value="kindsss">Turkish</label>
+                </fieldset>
+                <input type="text" name="coffeeurl" placeholder="coffee photo URL" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
